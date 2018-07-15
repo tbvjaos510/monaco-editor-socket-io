@@ -4,6 +4,7 @@ var server = require('http').createServer(app)
 var path = require('path')
 var io = require('socket.io')(server) //import socket.io
 
+var editorSocket = require('./socket/socket-editor')(io, '/main');
 app.use(express.static(path.join(__dirname, 'public')))
 
 
