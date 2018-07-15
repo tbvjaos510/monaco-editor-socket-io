@@ -5,7 +5,7 @@ Monaco Editor with Socket.io Example
 
 * [node.js](https://nodejs.org)
 * [Express](http://expressjs.com)
-* Socket.io
+* [Socket.io](https://socket.io/)
 * [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 
 ## Live Coding
