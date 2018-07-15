@@ -149,32 +149,18 @@ function changeText(e) {
     editor.getModel().applyEdits(e.changes) //change Content
 }
 require(["vs/editor/editor.main"], function () {
-    var htmlCode = `<!DOCTYPE HTML>
-    <!-- 
-        Comments are overrated
-    -->
-    <html>
-    <head>
-        <title>HTML Sample</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <style type="text/css">
-            h1 {
-                color: #CCA3A3
-            }
-        </style>
-        <script type="text/javascript">
-            window.alert("I am a sample...")
-        </script>
-    </head>
-    <body>
-        <h1>Heading No.1</h1>
-        <input disabled type="button" value="Click me" />
-    </body>
-    </html>`    //example Code
+    var htmlCode = `function hello(){
+        console.log('Hello World')
+    }
+    
+    function Change(){
+        document.getElementById("child").innerText = "Do"
+    }
+}`    //example Code
 
     editor = monaco.editor.create(document.getElementById("editor"), {
         value: htmlCode,
-        language: "html",
+        language: "javascript",
         fontSize: 15,
         readOnly: true,
         fontFamily: "Nanum Gothic Coding",  //Set Font
