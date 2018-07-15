@@ -1,0 +1,27 @@
+{
+  "name": "monaco-editor-socket-io",
+  "version": "1.0.0",
+  "description": "monaco editor with multi coding",
+  "main": "app.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbvjaos510/monaco-editor-socket-io.git"
+  },
+  "keywords": [
+    "monaco-editor",
+    "socket-io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbvjaos510/monaco-editor-socket-io/issues"
+  },
+  "homepage": "https://github.com/tbvjaos510/monaco-editor-socket-io#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
