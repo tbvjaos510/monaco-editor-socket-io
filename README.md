@@ -1,4 +1,4 @@
-# monaco-editor-socket-io
+# Monaco-editor Socket-io
 Monaco Editor with Socket.io Example
 
 ## API
@@ -8,8 +8,11 @@ Monaco Editor with Socket.io Example
 * [Socket.io](https://socket.io/)
 * [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 
+
+# Function
+
 ## Live Coding
-Use Live Coding
+Real-time multi-coding
 <img src="./intro/manyEdit.gif">
 
 ## Display Selection
